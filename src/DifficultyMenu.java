@@ -10,8 +10,9 @@ public class DifficultyMenu extends JPanel {
     private JButton hardButton;
 
     public DifficultyMenu(JFrame frame) {
-        setLayout(new GridLayout(3, 1));
-
+        //setLayout(new GridLayout(3, 1));
+        setSize(300, 300);
+        setLayout(new GridBagLayout());
         easyButton = new JButton("Easy");
         mediumButton = new JButton("Medium");
         hardButton = new JButton("Hard");
